@@ -17,9 +17,9 @@ management:
     enabled: false
 zuul:
   sensitive-headers:
-    host:
-      socket-timeout-millis: 999999999
-      connect-timeout-millis: 99999999
+  host:
+    socket-timeout-millis: 999999999
+    connect-timeout-millis: 99999999
 ribbon:
   ReadTimeout: 99999999
   ConnectTimeout: 99999999
