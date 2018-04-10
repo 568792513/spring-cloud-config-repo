@@ -62,8 +62,8 @@ logging:
 #修改文件大小限制
 multipart:
   enabled: true
-  max-file-size: 50mb
-  max-request-size: 50mb
+  max-file-size: 200mb
+  max-request-size: 200mb
 
 #feign 超时限制
 feign:
@@ -81,8 +81,8 @@ feign:
 #    connection-timeout: 30000
 #请求处理的超时时间
 ribbon:
-  ReadTimeout: 12000
-  ConnectTimeout: 30000
+  ReadTimeout: 999999999
+  ConnectTimeout: 999999999
 
 FtpVideoPath: 120.79.143.237/video_file/
 FtpVideoImgPath: 120.79.143.237/video_img/
