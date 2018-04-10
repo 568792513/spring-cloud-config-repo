@@ -55,12 +55,6 @@ logging:
         user_service:
           mapper: debug
 
-#修改文件大小限制
-multipart:
-  enabled: true
-  max-file-size: 50mb
-  max-request-size: 50mb
-
 #feign 超时限制
 feign:
   hystrix:
