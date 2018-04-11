@@ -14,6 +14,9 @@ spring:
     multipart:
       maxFileSize: 1000Mb
       maxRequestSize: 1000Mb
+  data:
+    mongodb:
+      uri: mongodb://:@120.79.143.237:27017/comment
   datasource:
     url: jdbc:mysql://120.79.143.237:3306/hui?useUnicode=true&characterEncoding=UTF-8
     username: root
