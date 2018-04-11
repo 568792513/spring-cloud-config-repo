@@ -9,7 +9,7 @@ eureka:
 # ��������Դ
 spring:
   application:
-    name: vedio-service
+    name: comment-service
   http:
     multipart:
       maxFileSize: 1000Mb
