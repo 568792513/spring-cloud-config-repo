@@ -16,7 +16,7 @@ spring:
       maxRequestSize: 1000Mb
   data:
     mongodb:
-      uri: mongodb://root:123456@120.79.143.237:27017/comment
+      uri: mongodb://120.79.143.237:27017/comment
 
 #mybatis:
 #  mapper-locations: classpath*:/mapper/**Mapper.xml
