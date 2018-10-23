@@ -32,7 +32,7 @@ spring:
     maxOpenPreparedStatements: 20
     connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
   redis:
-    host: 120.79.143.237
+    host: 127.0.0.1
     port: 6379
     password:
     pool:
